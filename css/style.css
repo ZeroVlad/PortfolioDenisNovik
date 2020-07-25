@@ -90,6 +90,94 @@ main section{
 	margin-bottom: 22px;
 }
 
+.skills{}
+
+.skills h3{
+	margin-bottom: 65px;
+}
+
+.skills .text-block{
+	margin-bottom: 80px;
+}
+
+.pograms-block{
+	display: flex;
+	justify-content: space-between;
+}
+
+.program{
+	width: 100%;
+}
+
+.program img{
+	margin: 0 auto;
+}
+
+.program .name{
+	margin-top: 22px;
+	margin-bottom: 40px;
+}
+
+.program-rating{}
+
+.program-rating .star{
+	font-size: 24px;
+	margin-right: 5px;
+	color: #E5E5E5;
+	cursor: pointer;
+}
+
+.program-rating .star.active{
+	color: #000;
+}
+
+.portfolio{
+	background-color: #F6F6F6;
+}
+
+.portfolio h3{
+	margin-bottom: 40px;
+}
+
+.portfolio-item{
+	width: 900px;
+	max-width: 90%;
+	margin-right: auto;
+  margin-left: auto;
+}
+
+.portfolio-item:not(:last-child){
+	margin-bottom: 100px;
+}
+
+.portfolio-item .title{
+	margin-top: 40px;
+	text-decoration-line: underline;
+}
+
+.contacts{}
+
+.contacts .text-block{
+	margin: 20px 0;
+}
+
+.send-message{
+	background-color: #000;
+	color: #fff;
+	border-radius: 30px;
+	padding: 8px 28px;
+	margin-bottom: 100px;
+}
+
+.contact-link{
+	display: flex;
+	width: 340px;
+	justify-content: space-between;
+	margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 40px;
+}
+
 /* Conteiner */
 .conteiner{
   width: 95%;
